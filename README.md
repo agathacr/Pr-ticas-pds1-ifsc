@@ -1,1 +1,1 @@
-# Pr-ticas-pds1-ifsc
+# Praticas-pds1-ifsc
