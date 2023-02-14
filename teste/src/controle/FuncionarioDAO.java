@@ -14,6 +14,9 @@ public class FuncionarioDAO {
 		ListadeFuncionarios.add(func);
 		return false;
 	}
+	public static FuncionarioDAO getInstance() {
+		return null;
+	}
 	}
 
 
