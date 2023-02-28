@@ -1,0 +1,14 @@
+1-Em programação, o que é uma biblioteca?
+R: é onde fica armazenado os recursos que seram usados.
+
+2-O que é a biblioteca Swing do Java e qual é o seu propósito?
+R: é uma biblioteca do Java para criar interfaces gráficas.
+
+3-Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+
+Botão:JBotton
+Campo de Texto:JTextField
+Caixa de Seleção:JCheckbox
+Barra de Progresso:JProgressBar 
+Botão de Opção:JOpcionPane
+Caixa de Combinação:JComboBox
