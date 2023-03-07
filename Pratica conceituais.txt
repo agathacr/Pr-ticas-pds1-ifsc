@@ -20,10 +20,13 @@ Os tipos são:FlowLayout, BorderLayout, GridLayout, BoxLayout e GridBagLayout.
 
 
 5-Como é possível fazer a validação de entrada de dados em campos de texto?
-R:
+R:.isEmpty para verificação de que a 
 
 6-Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
-R:
+R:Swing:Além de seus próprios componentes, esse pacote possui quase todos os componentes que já existiam no pacote AWT,mas trabalha de forma totalmente diferente.É mais completo e os programas têm uma aparência muito parecida, independente do sistema operacional que está sendo utilizado.Mas a performance é um pouco pior devido a alta abstração, consumindo assim mais memória RAM.
+
+AWT:
+JavaFX:é usada para a criação de aplicações RIA , não sendo necessário recompilar o código fonte para ser executada em diferentes JVMs.
 
 7-Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf.
 R:
