@@ -20,13 +20,15 @@ Os tipos são:FlowLayout, BorderLayout, GridLayout, BoxLayout e GridBagLayout.
 
 
 5-Como é possível fazer a validação de entrada de dados em campos de texto?
-R:.isEmpty para verificação de que a 
+R:.isEmpty para verificar se a String esta vazia ou não.
 
 6-Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
 R:Swing:Além de seus próprios componentes, esse pacote possui quase todos os componentes que já existiam no pacote AWT,mas trabalha de forma totalmente diferente.É mais completo e os programas têm uma aparência muito parecida, independente do sistema operacional que está sendo utilizado.Mas a performance é um pouco pior devido a alta abstração, consumindo assim mais memória RAM.
 
-AWT:
-JavaFX:é usada para a criação de aplicações RIA , não sendo necessário recompilar o código fonte para ser executada em diferentes JVMs.
+AWT:Para aplicações simples o sistema funciona. O problema é que para aplicações mais complexas, mudanças sutis no comportamentos de Texfileds, scrrols ou menus podem mudar a experiência do usuário, e até causar bug diferentes em cada sistema.A biblioteca AWT foi introduzida no Java 1.0, no pacote “java.awt”.A biblioteca Swing foi introduzida logo depois como uma extensão, no java 1.1, e como parte do pacote padrão no java 1.2, no pacote “javax.swing”.A biblioteca Swing não é uma biblioteca alternativa ao AWT, mas uma biblioteca que complementa a AWT.
+
+JavaFX:é usada para a criação de aplicações RIA , não sendo necessário recompilar o código fonte para ser executada em diferentes JVMs.O desenvolvimento de aplicações em JavaFX pode fazer uso de qualquer biblioteca Java, acessar recursos nativos do sistema ou se conectar a aplicativos de middleware baseados em servidor.
+Essa possibilidade se dá pelo fato do JavaFX estar totalmente integrado ao JRE e ao JDK, sendo capaz de executar aplicações que o adotem nas principais plataformas desktop
 
 7-Pesquise o conceito de “Look & Feel” dentro do contexto de interfaces gráficas com Swing no Java. Procure alguns exemplos de temas, como o tema FlatLaf.
-R:
+R:Os look-and-feels, são objetos que ao serem configurados na aplicação, modificam o modo como o usuário vai interagir ou visualizar a interface gráfica da mesma. O pacote javax.swing possui um conjunto de ferramentas que permite ao programador definir qual será o look-and-feel da aplicação. 
